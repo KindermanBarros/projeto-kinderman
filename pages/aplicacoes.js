@@ -1,7 +1,11 @@
+import Link from "next/link";
 function aplicacoes(){
     return (
         <div>
-            <head><title>Fontes Renováveis </title></head>
+            <head>
+                <title>Fontes Renováveis </title>
+                <link rel="stylesheet" type="text/css" href="style.css"></link>
+            </head>
             <header> 
                 <h1>
                     Projetos
