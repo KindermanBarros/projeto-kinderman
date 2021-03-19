@@ -7,11 +7,21 @@ function home(){
                     Projetos
                 </h1>
                 <nav>
-                    <table>
+                    <table id="info" border='1'>
+                        <th>Informações</th>
                         <tr>
-                            <th>Informações</th>
                         <td>
                             <a href="/sobre">Sobre o projeto</a>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="/fundamentos">Fundamentos de Energias Renováveis</a>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
+                            <a href="/aplicacoes">Aplicações em Energias Renováveis</a>
                         </td>
                         </tr>
                     </table>
