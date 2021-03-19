@@ -1,47 +1,66 @@
 import Link from "next/link";
+import Head from 'next/head';
+
 function sobre(){
     return (
-        <div>
-            <head>
+        
+        <div style={{backgroundColor:''}}>
+            <Head>
                 <title>Fontes Renováveis </title>
-                <link rel="stylesheet" type="text/css" href="style.css"></link>
-            </head>
-            <header> 
+            </Head>
+            <style jsx global>{`{body {background: #c3fadd}`}</style>
+            <style jsx>{`
+        .link:hover {
+          color: blue;
+        }
+      `}</style>
+            <header style ={{padding: '10px', textAlign: 'center', background: '#1abc9c', color: 'white', fontSize: '30px'}}> 
                 <h1>
                     Projetos
                 </h1>
-                <nav>
-                    <table id="info" border='1'>
-                        <th>Informações</th>
+            </header>
+            <body>
+            <nav style={{width: '55%', marginRight:'2%', float: 'left'}}>
+                <table border='2' style={{borderCollapse:'collapse', width:'500x', fontSize:'20px'}}>
+                        <div style={{backgroundColor:'lightblue'}}>
+                        <th style={{width:'10px',color: 'white', backgroundColor:'#1abc9c'}}>Informações</th>
                         <tr>
                         <td>
                             <Link href="/">
-                            <a>Início</a>
+                            <a className='link' style={{textDecoration: 'none'}}>Início</a>
                             </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
                             <Link href="/fundamentos">
-                            <a>Fundamentos de Energias Renováveis</a>
+                            <a className='link' style={{textDecoration: 'none'}}>Fundamentos de Energias Renováveis</a>
                             </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
                             <Link href="/aplicacoes">
-                            <a>Aplicações em Energias Renováveis</a>
+                            <a className='link' style={{textDecoration: 'none'}}>Aplicações em Energias Renováveis</a>
                             </Link>
                         </td>
                         </tr>
+                        </div>
                     </table>
                 </nav> 
-            </header>
-            <body>
-                <section>
+                <section style={{width:'42%' ,float: 'left'}}>
                     <article>
-                        <header></header>
-                        <p></p>
+                        <h2>Título</h2>
+                        <p>Parágrafo</p>
+                    </article>
+                </section>
+                <section>
+                    <article style={{paddingTop:'200px'}}>
+                        <h2>Título</h2>
+                        <img src=''/>
+                        <p>
+                          Parágrafo  
+                        </p>
                     </article>
                 </section>
             </body>

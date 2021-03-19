@@ -1,18 +1,19 @@
 import Link from "next/link";
+import Head from 'next/head';
 
 function fundamentos(){
     return (
         <div>
-            <head>
-                <title>Fontes Renováveis </title>
-                <link rel="stylesheet" type="text/css" href="style.css"></link>
-            </head>
-            <header> 
+            <Head>
+           <title>Fontes Renováveis </title>
+            </Head>
+            <style jsx global>{`{body {background: #c3fadd }`}</style>
+            <header style ={{padding: '10px', textAlign: 'center', background: '#1abc9c', color: 'white', fontSize: '30px'}}> 
                 <h1>
                     Projetos
                 </h1>
                 <nav>
-                    <table id="info" border='1'>
+                <table border='1'>
                         <th>Informações</th>
                         <tr>
                         <td>
