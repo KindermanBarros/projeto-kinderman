@@ -1,3 +1,4 @@
+import Link from "next/link";
 function home(){
     return (
         <div>
@@ -11,17 +12,23 @@ function home(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <a href="/sobre">Sobre o projeto</a>
+                            <Link href="/sobre">
+                            <a>Sobre o projeto</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/fundamentos">Fundamentos de Energias Renováveis</a>
+                            <Link href="/fundamentos">
+                            <a>Fundamentos de Energias Renováveis</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/aplicacoes">Aplicações em Energias Renováveis</a>
+                            <Link href="/aplicacoes">
+                            <a>Aplicações em Energias Renováveis</a>
+                            </Link>
                         </td>
                         </tr>
                     </table>

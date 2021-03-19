@@ -1,4 +1,4 @@
-function home(){
+function sobre(){
     return (
         <div>
             <head><title>Fontes Renováveis </title></head>
@@ -11,17 +11,23 @@ function home(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <a href="/index">Início</a>
+                            <Link href="/index">
+                            <a>Início</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/fundamentos">Fundamentos de Energias Renováveis</a>
+                            <Link href="/fundamentos">
+                            <a>Fundamentos de Energias Renováveis</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/aplicacoes">Aplicações em Energias Renováveis</a>
+                            <Link href="/aplicacoes">
+                            <a>Aplicações em Energias Renováveis</a>
+                            </Link>
                         </td>
                         </tr>
                     </table>
@@ -40,4 +46,4 @@ function home(){
     )
 }
 
-export default home
+export default sobre

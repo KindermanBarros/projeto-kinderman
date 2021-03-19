@@ -1,4 +1,6 @@
-function home(){
+import Link from "next/link";
+
+function fundamentos(){
     return (
         <div>
             <head><title>Fontes Renováveis </title></head>
@@ -11,17 +13,23 @@ function home(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <a href="/index">Início</a>
+                            <Link href="/index">
+                            <a>Início</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/sobre">Sobre o projeto</a>
+                            <Link href="/sobre">
+                            <a>Sobre o projeto</a>
+                            </Link>
                         </td>
                         </tr>
                         <tr>
                         <td>
-                            <a href="/aplicacoes">Aplicações em Energias Renováveis</a>
+                            <Link href="/aplicacoes">
+                            <a>Aplicações em Energias Renováveis</a>
+                            </Link>
                         </td>
                         </tr>
                     </table>
@@ -40,4 +48,4 @@ function home(){
     )
 }
 
-export default home
+export default fundamentos
