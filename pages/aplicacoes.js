@@ -11,17 +11,17 @@ function home(){
                         <th>Informações</th>
                         <tr>
                         <td>
+                            <a href="/index">Início</a>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td>
                             <a href="/sobre">Sobre o projeto</a>
                         </td>
                         </tr>
                         <tr>
                         <td>
                             <a href="/fundamentos">Fundamentos de Energias Renováveis</a>
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>
-                            <a href="/aplicacoes">Aplicações em Energias Renováveis</a>
                         </td>
                         </tr>
                     </table>

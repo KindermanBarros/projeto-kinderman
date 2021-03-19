@@ -11,7 +11,7 @@ function home(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <a href="/sobre">Sobre o projeto</a>
+                            <a href="/index">Início</a>
                         </td>
                         </tr>
                         <tr>
