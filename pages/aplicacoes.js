@@ -15,8 +15,8 @@ function aplicacoes(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <Link href="/index">
-                            <a>Index</a>
+                            <Link href="/">
+                            <a>Início</a>
                             </Link>
                         </td>
                         </tr>

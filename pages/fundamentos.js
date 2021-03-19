@@ -16,7 +16,7 @@ function fundamentos(){
                         <th>Informações</th>
                         <tr>
                         <td>
-                            <Link href="/index">
+                            <Link href="/">
                             <a>Início</a>
                             </Link>
                         </td>
